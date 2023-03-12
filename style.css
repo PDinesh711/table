@@ -1,0 +1,34 @@
+*{
+    padding: 0;margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+}
+table{
+    width: 80%;
+    height: 80%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: larger;
+    background-color: tomato;
+animation: rot 10s infinite;
+}
+@keyframes rot {
+   30%{
+    border: 5px dotted navy;
+   }    
+   60%{
+    border: 5px dotted navy;
+   }
+   100%{
+    border: 5px dotted navy;
+   }
+}
+
+
+
